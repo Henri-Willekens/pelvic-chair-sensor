@@ -9,8 +9,8 @@
 
 const char* mqttServer = "Insert IP address or hostname of webserver"; //”192.168.1.3”
 const int mqttPort = 1883;
-const char* mqttUser = "pelvic";
-const char* mqttPassword = "chair";
+const char* mqttUser = "Insert username that has to match in the mqtthandler.js code of NodeJS. In github code mqttUser is pelvic."; //”pelvic”
+const char* mqttPassword = " Insert password that has to match in the mqtthandler.js code of NodeJS. In github code mqttpassword is chair "; //”chair”
 float sensor1, sensor2, sensor3, sensor4;
 
 
