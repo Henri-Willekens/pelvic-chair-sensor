@@ -7,7 +7,7 @@
 #include <EEPROM.h>
  
 
-const char* mqttServer = "put here your ip adress";
+const char* mqttServer = "Insert IP address or hostname of webserver"; //”192.168.1.3”
 const int mqttPort = 1883;
 const char* mqttUser = "pelvic";
 const char* mqttPassword = "chair";
